@@ -1,0 +1,64 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;}
+
+
+
+
+.container {
+width: 1360px;
+
+}
+.our-team {
+    padding: 80px 0;
+    text-align: center;
+}
+.our-team-subtitle {
+    font: 400 20px / 1.64736 "Open Sans", sans-serif;
+        text-align: center;
+        color: #333;
+        margin-bottom: 24px;
+}
+.our-team-title {
+    font: 300 38px / 1.26316 "Open Sans", sans-serif;
+        text-align: center;
+        color: #333;
+        margin-bottom: 24px;
+}
+.our-team-text {
+    font: 400 18px / 1.56444 "Open Sans", sans-serif;
+        text-align: center;
+        color: #333;
+        margin-bottom: 24px;
+}
